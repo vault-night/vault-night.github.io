@@ -1,11 +1,11 @@
 
+alert('press SPACEBAR to play/reset\n\npress F11 and have play background music for the best experience!')
+
 var game = {}
 
 game.bpm = 100
 game.fps = 61
 game.directions = ['left','down','up','right']
-
-game.arrows = []
 
 game.move_arrows = {}
 game.move_arrows.step = 1000/60
@@ -24,6 +24,8 @@ game.ghost.step = 60000/game.bpm
 game.func = {}
 
 game.func.Initialize = () => {
+  game.arrows = []
+  $('#left').html(''); $('#down').html(''); $('#up').html(''); $('#right').html('')
   game.start_time = Date.now()
   game.run_time = game.move_arrows.next = game.new_arrow.count = game.new_arrow.next = game.ghost.next = game.score = 0
   game.animate.next = game.animate.step
@@ -109,7 +111,7 @@ game.func.Random_Direction = () => {
 }
 
 game.func.Ghost = () => {
-  $('.ghost').css('opacity',0.75).fadeTo(15000/game.bpm,0.35)
+  $('.ghost').css('opacity',0.65).fadeTo(15000/game.bpm,0.35)
   game.ghost.next += game.ghost.step
 }
 
