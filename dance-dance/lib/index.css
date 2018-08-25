@@ -1,0 +1,39 @@
+
+body {
+  position:absolute;
+  margin:0;
+  height:100vh; width:100vw;
+  font-size:0;
+  background:#000;
+  cursor:none;
+  overflow:hidden;}
+
+img {
+  height:22.5vmin; width:auto;
+  user-select:none;
+  -webkit-user-select:none;
+  user-drag:none;
+  -webkit-user-drag:none;}
+
+@keyframes SlideDown {
+  0% {transform:translateY(-200%)};
+  100% {transform:translateY(0)}}
+
+#game {
+  animation:0.5s ease-out 0s 1 SlideDown;
+  position:absolute;
+  display:grid;
+  grid-template-columns:22.5vmin 22.5vmin 22.5vmin 22.5vmin;
+  grid-column-gap:2vmin;
+  margin:2vmin calc(50vw - 48vmin) 0;
+  height:22.5vmin;}
+
+#game div div {position:absolute;}
+
+.left img {position:absolute; transform:rotate(0deg)}
+.down img {position:absolute; transform:rotate(270deg)}
+.up img {position:absolute; transform:rotate(90deg)}
+.right img {position:absolute; transform:rotate(180deg)}
+
+.ghost {opacity:0.35}
+.white {opacity:0}

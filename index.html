@@ -3,30 +3,97 @@
 <html>
   <head>
     <title>Vault Night</title>
-    <link rel='icon' href='images/vault-night-icon.png'>
+    <link rel='icon' href='img/vault-night-icon.png'>
   </head>
 
   <body>
-    <div>Vault Night</div>
+
+    <div id='container'>
+
+      <div id='header'>
+        <img id='logo' src='img/vault-night-logo.svg'>
+        Vault Night
+      </div>
+
+      <div id='side'>
+        <a href='vav-rpg/index.html'>Virtue & Valor</a>
+        <br>
+        <a href='dance-dance/index.html'>Dance Dance</a>
+      </div>
+
+      <div id='main'>
+        Main
+      </div>
+
+    </div>
+
   </body>
 </html>
 
 <style>
 
 body {
-  display: flex;
-  justify-content: center;
   margin: 0px;
-  height: 100vh;
-  width: 100vw;
-  color: #def;
-  background: #123;
+  background: #000;
 }
 
-body div {
+a {
+  color: #fffc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffff;
+  text-decoration: underline;
+}
+
+#container {
+  display: grid;
+  grid-template-areas: 'header header' 'side main';
+  color: #fff;
+  font-size: 16px;
+  font-family: serif;
+}
+
+#container > div {
+  box-sizing: border-box;
+}
+
+#header {
   display: flex;
+  justify-content: center;
   align-items: center;
-  font-size: 10vmin;
+  grid-area: header;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  background: #0b3059;
+}
+
+#logo {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: 42px;
+}
+
+#side {
+  grid-area: side;
+  height: calc(100vh - 50px);
+  width: 200px;
+  padding: 16px;
+  background: #0b3059;
+}
+
+#side > a {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+#main {
+  grid-area: main;
+  height: calc(100vh - 50px);
+  width: calc(100vw - 200px);
+  padding: 16px;
 }
 
 </style>

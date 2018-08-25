@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="421.43029"
-     inkscape:cy="70.961284"
+     inkscape:zoom="9.6703299"
+     inkscape:cx="85.293824"
+     inkscape:cy="31.420304"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -71,21 +71,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-280.06667)">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55617975"
-       id="rect826"
-       width="16.933332"
-       height="16.933332"
-       x="-297"
-       y="1.7075181e-014"
-       rx="2.1166558"
-       ry="2.1166558"
-       transform="rotate(-90)" />
     <path
-       style="opacity:1;fill:#0b3059;fill-opacity:1;stroke:none;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55617975"
-       d="m 5.7267817,280.06666 a 7.9374999,7.9374999 0 0 0 -2.551782,5.82083 7.9374999,7.9374999 0 0 0 7.9374993,7.9375 7.9374999,7.9374999 0 0 0 5.820834,-2.5554 v -9.08626 c 0,-1.17263 -0.94404,-2.11667 -2.116667,-2.11667 z"
-       id="path908"
-       inkscape:connector-curvature="0" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.55617975"
+       d="M 8 0 C 3.5680227 0 3.2088707e-016 3.5680227 0 8 L 0 56 C -1.1842379e-015 60.431977 3.5680227 64 8 64 L 56 64 C 60.431977 64 64 60.431977 64 56 L 64 42.341797 A 30 30 0 0 1 42 52 A 30 30 0 0 1 12 22 A 30 30 0 0 1 21.644531 0 L 8 0 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,280.06667)"
+       id="rect826" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25400022px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 2.1541157,282.18334 5.260517,12.7 h 2.1042058 l 5.2603775,-12.7 h -2.103935 l 0.52586,1.26999 -3.6825075,8.88951 -3.6820108,-8.88951 0.52586,-1.26999 z"
